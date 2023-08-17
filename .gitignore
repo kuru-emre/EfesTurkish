@@ -1,0 +1,26 @@
+# Ignore everything in the root except the "wp-content" directory.
+/*
+!readme.md
+!license.txt
+!.gitignore
+!wp-content/
+
+# Ignore everything in the "wp-content" directory, except the "plugins"
+# , "themes", and "uploads" directories.
+wp-content/*
+!wp-content/plugins/
+!wp-content/themes/
+!wp-content/uploads/
+
+# Ignore everything in the "plugins" directory, except the plugins you specify.
+wp-content/plugins/*
+!wp-content/plugins/plugins.txt
+
+
+# Ignore everything in the "themes" directory, except the themes you specify.
+wp-content/themes/*
+!wp-content/themes/laurent/
+
+# Ignore everything in the "uploads" directory, except the uploads you specify.
+wp-content/uploads/*
+!wp-content/uploads/2022

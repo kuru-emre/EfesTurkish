@@ -1,0 +1,8 @@
+1 - js_composer
+2 - laurent-core
+3 - menu-ordering-reservations
+4 - revslider
+5 - sg-cachepress
+6 - sg-security
+7 - shortcode-in-menus
+8 - shortcoder
